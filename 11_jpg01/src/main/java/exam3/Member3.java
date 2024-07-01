@@ -11,7 +11,7 @@ import jakarta.persistence.Table;
 @Table(name="JpaMember3")
 public class Member3 {
 @Id
-private String email;
+private String email; //id = email로 지정해준거임
 private String name;
 
 @Column (name="create_date")
